@@ -1,0 +1,15 @@
+syntax="proto3";
+
+package api;
+
+service GoGraphQL {
+  rpc SayHello(SayHelloReq) returns (SayHelloRes);
+}
+
+message SayHelloReq {
+  string name = 1;
+}
+
+message SayHelloRes {
+  string message = 1;
+}
