@@ -1,4 +1,4 @@
-# Simple Readme
+# Go + gRPC + GraphQL
 
 This repo uses `godep` for vendoring. Make sure you got it installed. You can
 get started by running `go install ./...`. Then in one terminal, run `hellosrv`.
