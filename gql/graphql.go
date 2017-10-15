@@ -27,12 +27,12 @@ func NewResolver(helloClient api.GoGraphQLClient) *Resolver {
 	}
 }
 
-func (r *Resolver) Hello(args struct{ Name string }) (string, error) {
+func (r *Resolver) Hello(ctx context.Context, args struct{ Name string }) (string, error) {
 	request := &api.SayHelloReq{
 		Name: args.Name,
 	}
 
-	res, err := r.helloSvc.SayHello(context.TODO(), request)
+	res, err := r.helloSvc.SayHello(ctx, request)
 	if err != nil {
 		return "", err
 	}
