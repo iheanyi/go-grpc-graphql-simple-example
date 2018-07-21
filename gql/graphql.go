@@ -3,7 +3,7 @@ package gql
 import (
 	"context"
 
-	"github.com/iheanyi/go-graphql-experiment/api"
+	"github.com/iheanyi/go-grpc-graphql-simple-example/api"
 )
 
 var Schema = `

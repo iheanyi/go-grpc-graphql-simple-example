@@ -4,7 +4,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/iheanyi/go-graphql-experiment/api"
+	"github.com/iheanyi/go-grpc-graphql-simple-example/api"
 	"google.golang.org/grpc"
 )
 

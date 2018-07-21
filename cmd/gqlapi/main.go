@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/iheanyi/go-graphql-experiment/api"
-	"github.com/iheanyi/go-graphql-experiment/gql"
+	"github.com/iheanyi/go-grpc-graphql-simple-example/api"
+	"github.com/iheanyi/go-grpc-graphql-simple-example/gql"
 	graphql "github.com/neelance/graphql-go"
 	"google.golang.org/grpc"
 )
